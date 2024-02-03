@@ -1,7 +1,11 @@
 <template>
   <div class="area">
-    <FormInputGroup />
+    <FormInputText :loading="searching" />
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { ref } from "vue";
+
+const searching = ref(false);
+</script>

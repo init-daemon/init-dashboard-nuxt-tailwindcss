@@ -15,3 +15,8 @@
 
 - [installation](https://tailwind.primevue.org/nuxt/)
 - [tailwind primevue](https://tailwind.primevue.org)
+
+### fontawesome
+
+- [installation](https://fontawesome.com/docs/web/use-with/vue/use-with)
+- [documentation](https://fontawesome.com/docs/web/use-with/vue/style)

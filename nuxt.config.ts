@@ -8,7 +8,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  css: ["~/assets/css/app.css"],
+  css: ["~/assets/css/app.css", "@fortawesome/fontawesome-svg-core/styles.css"],
   modules: ["nuxt-primevue"],
   primevue: {
     unstyled: true,
