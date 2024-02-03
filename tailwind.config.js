@@ -1,3 +1,5 @@
+import colors from "./config/primevue/colors";
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -7,9 +9,12 @@ export default {
     "./plugins/**/*.{js,ts}",
     "./app.vue",
     "./error.vue",
+    "presets/**/*.{js,vue,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors,
+    },
   },
   plugins: [],
 };
