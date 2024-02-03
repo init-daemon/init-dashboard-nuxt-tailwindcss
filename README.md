@@ -1,0 +1,1 @@
+# init-dashboard-nuxt-tailwindcss
