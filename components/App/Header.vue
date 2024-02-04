@@ -1,7 +1,5 @@
 <template>
-  <div class="area">
-    <FormInputText :loading="searching" />
-  </div>
+  <div class="area flex items-center justify-between"></div>
 </template>
 
 <script setup lang="ts">

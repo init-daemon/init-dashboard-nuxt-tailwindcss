@@ -9,9 +9,4 @@ export default defineNuxtConfig({
     },
   },
   css: ["~/assets/css/app.css", "@fortawesome/fontawesome-svg-core/styles.css"],
-  modules: ["nuxt-primevue"],
-  primevue: {
-    unstyled: true,
-    importPT: { from: path.resolve(__dirname, "./presets/lara/") }, //import and apply preset
-  },
 });
