@@ -1,7 +1,12 @@
 <template>
   <div>
     <AppHeader />
-    <NuxtPage />
+    <div class="flex">
+      <AppSidebarContainer>
+        <AppSidebarItem></AppSidebarItem>
+      </AppSidebarContainer>
+      <NuxtPage />
+    </div>
   </div>
 </template>
 
